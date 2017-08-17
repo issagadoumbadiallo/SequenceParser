@@ -1,6 +1,6 @@
 
-//#include "include/GlobalConst.h"
-
+#include "bracket.hpp"
+/*
 #include<iostream>
 #include <memory>
 #include<vector>
@@ -73,11 +73,7 @@ public:
 		this->bracketsPool[BracketIndex-1]->addClose(position);
 		//std::cout<<"Index closed " << BracketIndex <<'\n';
 	}
-	/*
-	bracket& operator[](uint bracketIndex){
-		return std::move(bracketsPool[bracketIndex-1]);
-	}
-	*/
+	
 	auto operator[](uint bracketIndex){
 		return bracketsPool[bracketIndex-1];
 	}
@@ -128,3 +124,4 @@ int main(){
 	return 1;
 }
 
+*/
